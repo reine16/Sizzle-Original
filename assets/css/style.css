@@ -355,6 +355,10 @@ h6 {
   }
 }
 
+#hero p span {
+  color: #8B0000;
+}
+
 #hero h1 {
   margin: 0;
   font-size: 48px;
