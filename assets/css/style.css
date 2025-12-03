@@ -579,7 +579,9 @@ section {
 --------------------------------------------------------------*/
 .about .about-img {
   min-height: 350px;
-  background-size: contain;
+  background-repeat: no-repeat; /* This prevents repetition */
+  background-size: cover; /* Optional: Adjusts image size to cover the entire element */
+  /* background-size: contain; */
 }
 
 
